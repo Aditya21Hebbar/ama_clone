@@ -1,0 +1,86 @@
+// .topbar{
+//     display: grid;
+//     grid-template-columns: auto auto auto auto auto auto;
+//     background-color: rgb(2, 14, 39);
+//     color: white;
+//     align-items: center;
+//     .amazon{
+//         img{
+//             height:70px;
+//             width:120px;
+
+//         }
+//     }
+//     .deliver{
+//         img{
+//             height:30px;
+//             width:30px;
+//         }
+//     }
+//     .Searchbox{
+//         button{
+//             height:45px;
+//         }
+//         input{
+//             height: 40px;
+//             width: 600px;
+//         }
+        
+//     }
+//     .sign{
+//         display: grid ;
+//     }
+//     .return{
+//         display: grid;
+//     }
+//     .cart{
+//         display: grid;
+//         img{
+//             height:30px;
+//             width:40px;
+//         }
+//     }
+// }
+// .subnavigation{
+//     display: grid;
+//     grid-template-columns: auto auto auto auto auto auto auto auto auto auto  auto  auto;
+//     background-color: rgb(1, 35, 73);
+//     color: white;
+//     align-items: center;
+// }
+// // .main{
+// //     display: grid;
+// //   grid-template-columns:auto auto;
+// //   grid-template-areas:'menu main';
+// //   grid-gap: 10px;
+// //     padding:10px;
+// // }
+// // .list-group{
+// //     grid-area: menu;
+// // }
+
+
+// nav{
+//     display: grid;
+//     grid-template-columns: auto auto auto auto;
+//     list.group{
+//         grid-template-rows: auto;
+//         display:grid;
+//      }
+//     .item-group{
+//         img{
+//             width:20%;
+//             height:20%;
+//         }
+//         display: flex;
+//         grid-template-columns:subgrid ;
+//         gap: 1rem;
+        
+//     }
+// }
+.container{
+    display:grid;
+    height:100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 02fr 1.5fr 1.2fr .8fr;
+}
