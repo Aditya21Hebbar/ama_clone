@@ -1,0 +1,26 @@
+.status{
+display:grid;
+grid-template-columns:auto auto;
+  img{
+    width: 25rem;
+    height:15rem;
+  }
+  h1{
+    color: black;
+    text-align: center;
+    text-shadow: black;
+  }
+
+
+}
+.signup{
+  button{
+    width: 21rem;
+    margin: 1rem;
+    height: 2rem;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor:pointer;
+    vertical-align: middle ;
+}
+}

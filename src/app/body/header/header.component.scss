@@ -1,0 +1,53 @@
+.topbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: rgb(2, 14, 39);
+    color: white;
+    align-items: center;
+    width: 100%;
+    .amazon{
+        img{
+            height:70px;
+            width:120px;
+
+        }
+    }
+    .deliver{
+        img{
+            height:30px;
+            width:30px;
+        }
+    }
+    .Searchbox{
+        button{
+            height:45px;
+        }
+        input{
+            height: 40px;
+            width: 600px;
+        }
+
+    }
+    .sign{
+        display: grid ;
+        color:blanchedalmond;
+        cursor: pointer;
+    }
+    .return{
+        display: grid;
+    }
+    .cart{
+        display: grid;
+        img{
+            height:30px;
+            width:40px;
+        }
+    }
+}
+.subnavigation{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto  auto  auto;
+    background-color: rgb(1, 35, 73);
+    color: white;
+    align-items: center;
+}

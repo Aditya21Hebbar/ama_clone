@@ -1,0 +1,23 @@
+<!--<a routerLink="/Electronics" routerLink= "active" >Electronics</a>
+<a routerLink="/PetSupplies" routerLink= "active" >Pet Supplies</a>
+<a routerLink="/FitnessNeeds" routerLink= "active" >Fitness Needs</a>
+<a routerLink="/Clothing" routerLink= "active" >Clothing</a>
+<a routerLink="/Toys" routerLink= "active" >Toys</a>
+
+
+<div class = "products_category">
+
+</div>
+
+<div>
+    <a routerLink="/signin" routerLinkActive ="active">  Hello, Sign in</a>
+ </div>-->
+
+ <div class="products">
+
+     <div class="product" *ngFor="let item of products_category">
+         <h1>{{item.category}}</h1>
+        <img src={{item.image}}>
+        <button (click)= "goTo()" >Shop</button>
+     </div>
+ </div>

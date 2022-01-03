@@ -5,8 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FilterPipe } from './filter.pipe';
 import { PricefilterPipe } from './pricefilter.pipe';
-import { SortProductcomponentComponent } from './sort-productcomponent/sort-productcomponent.component';
 import { RatingPipe } from './rating.pipe';
+import {MatCardModule} from '@angular/material/card';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BodyModule } from './body/body.module';
+import { UserModule } from './user/user.module';
+
 
 
 @NgModule({
@@ -14,14 +18,16 @@ import { RatingPipe } from './rating.pipe';
     AppComponent,
     FilterPipe,
     PricefilterPipe,
-    SortProductcomponentComponent,
-    RatingPipe
+    RatingPipe,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    
+    MatCardModule,
+    BrowserAnimationsModule,
+    BodyModule,
+    UserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

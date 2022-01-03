@@ -1,0 +1,28 @@
+.products{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    border:rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.product{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ // max-width: 300px;
+ // margin: 3px;
+  text-align: center;
+  font-family: arial;
+  img{
+      height:300px;
+      width:100%;
+  }
+}
+.product button {
+    border: none;
+    outline: 0;
+    padding: 15px;
+    color: white;
+    background-color: rgb(109, 111, 138);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+  }

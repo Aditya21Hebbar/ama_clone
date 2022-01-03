@@ -1,0 +1,61 @@
+<div class="topbar">
+    <div class="amazon">
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frdwgroup.com%2Fwp-content%2Fuploads%2F2013%2F08%2FAmazon-800x450-1.jpg&f=1&nofb=1"
+        alt="https://www.amazon.com/"
+        class="logo"
+      />
+    </div>
+
+    <div class="deliver">
+      <div>
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn5.vectorstock.com%2Fi%2Fthumb-large%2F50%2F74%2Flocation-icon-on-black-background-vector-15985074.jpg&f=1&nofb=1"
+        />
+        Delivery to India
+      </div>
+    </div>
+
+    <div class="Searchbox">
+      <button type="button">All</button>
+      <input type="text" [(ngModel)]="currentMsgToSibling" />
+      <button (click) ="msgToSib() ">Search </button>
+    </div>
+
+    <div class="sign">
+      <div>
+      <a (click)=onSigninButtonClick() >  Hello, Sign in</a>
+      </div>
+      <div>
+        Account & Lists
+
+      </div>
+    </div>
+
+    <div class="return">
+      <div>Refund</div>
+      <div>& Orders</div>
+    </div>
+
+    <div class="cart">
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clker.com%2Fcliparts%2Fl%2Fz%2F3%2FL%2Fh%2F3%2Fwhite-shopping-cart-hi.png&f=1&nofb=1"
+      />
+     <input type="button" value="Cart" (click)= "onCartButtonClick()" />
+    </div>
+  </div>
+
+  <div class="subnavigation">
+    <div>All</div>
+    <div>Gift Cards</div>
+    <div>Amazon Pay</div>
+    <div>Amazon Business</div>
+    <div>Pet Supplies</div>
+    <div>Kindle ebooks</div>
+    <div>user's Amazon</div>
+    <div>Gift Ideas</div>
+    <div>Video games</div>
+    <div>Amazon Basics</div>
+    <div>Coupons</div>
+    <div>Shopping made easy | Download the app</div>
+  </div>
